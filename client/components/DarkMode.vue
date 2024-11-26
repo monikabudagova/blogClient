@@ -39,7 +39,7 @@ const toggleTheme = () => {
 
 useHead({
     htmlAttrs: {
-        class: isDarkMode
+        class: isDarkMode.value
     }
 })
 </script>

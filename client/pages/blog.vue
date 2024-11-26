@@ -27,26 +27,13 @@
 
 
 <script setup>
-// const displayedPosts = ref(posts.slice(0, 1)) // отображаем первые 12 статей
-
-// const loadMore = () => {
-//   // при нажатии на кнопку отобразить 4 статьи
-//   displayedPosts.value = posts.slice(0, displayedPosts.value.length + 1)
-// }
-
-
-
-const api = await $fetch('http://localhost:1337/api/posts?populate=*')
+const base_url = "http://panel.cad73a483266.vps.myjino.ru"
+const api = await $fetch('http://panel.cad73a483266.vps.myjino.ru/api/posts?populate=*')
 const posts = api.data
-
-
 const displayedPosts = ref(posts.slice(0, 1)); // Первые 3 поста
-
 const loadMore = () => {
   displayedPosts.value = displayedPosts.value.concat(posts.slice(displayedPosts.value.length, displayedPosts.value.length + 1));
 };
-
-const base_url = "http://localhost:1337"
 </script>
 
 
