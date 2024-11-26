@@ -12,17 +12,22 @@
     const config = api.data
   
     useHead({
-      title: config.title,
-      meta: [
-        { name: 'description', content: config.desc },
-        { name: 'keywords', content: config.keywork },
-      ],
-      link: [
-        { rel: 'icon', type: 'image/x-icon', href: base+config.fanicon.url },
-      ],
-      bodyAttrs:{
-        class: 'container mx-auto bg-white dark:bg-gray-900'
-      }
-    })
+    title: config.title,
+    meta: [
+      { name: 'description', content: config.desc },
+      { name: 'keywords', content: config.keywords },
+    ],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: base+config.favicon.url },
+    ],
+    bodyAttrs: {
+      class: 'container mx-auto bg-white dark:bg-gray-900'
+    },
+    head: {
+      script: [
+        { src: 'https://yastatic.net/share2/share.js', async: true, defer: true }
+      ]
+    }
+  })
   </script>
   
