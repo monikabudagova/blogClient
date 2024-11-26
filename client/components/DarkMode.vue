@@ -12,18 +12,22 @@
 
 
 <script setup>
-const isDarkMode = ref('') // класс для HTML
-const isDark = ref(false) // по умолчанию светлая тема
+function toggleTheme (){
+    console.log('fefef');
+    
+}
+// const isDarkMode = ref('') // класс для HTML
+// const isDark = ref(false) // по умолчанию светлая тема
 
-onMounted(() => {
-    if (localStorage.getItem('color-theme') === 'dark') {
-        isDark.value = true;
-        isDarkMode.value = 'dark'
-    } else {
-        isDark.value = false;
-        isDarkMode.value = ''
-    }
-});
+// onMounted(() => {
+//     if (localStorage.getItem('color-theme') === 'dark') {
+//         isDark.value = true;
+//         isDarkMode.value = 'dark'
+//     } else {
+//         isDark.value = false;
+//         isDarkMode.value = ''
+//     }
+// });
 
 // // Функция для переключения темы
 const toggleTheme = () => {
