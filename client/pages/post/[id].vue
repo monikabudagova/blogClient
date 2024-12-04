@@ -27,9 +27,9 @@
   
   
   <script setup>
-    const base_url = "http://localhost:1337"
+    const base_url = "https://4ccc2241e457.vps.myjino.ru"
     const { id } = useRoute().params
-    const api = await $fetch(`http://localhost:1337/api/gategories/${id}?populate=posts.img&populate=posts.gategories`)
+    const api = await $fetch(`https://4ccc2241e457.vps.myjino.ru/api/gategories/${id}?populate=posts.img&populate=posts.gategories`)
     const posts = api.data.posts
     const displayedPosts = ref(posts.slice(0, 12)) // отображаем первые 12 статей
     const loadMore = () => displayedPosts.value = posts.slice(0, displayedPosts.value.length + 4) // добавляем еще 4
