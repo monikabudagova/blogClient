@@ -27,8 +27,8 @@
 
 
 <script setup>
-const base_url = "http://panel.cad73a483266.vps.myjino.ru"
-const api = await $fetch('http://panel.cad73a483266.vps.myjino.ru/api/posts?populate=*')
+const base_url = "https://panel.cad73a483266.vps.myjino.ru"
+const api = await $fetch('https://panel.cad73a483266.vps.myjino.ru/api/posts?populate=*')
 const posts = api.data
 const displayedPosts = ref(posts.slice(0, 1)); // Первые 3 поста
 const loadMore = () => {
