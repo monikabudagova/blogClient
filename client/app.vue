@@ -18,7 +18,7 @@
       { name: 'keywords', content: config.keywords },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: base+config.favicon.url },
+      { rel: 'icon', type: 'image/x-icon', href: base+config.fanicon[0].url },
     ],
     bodyAttrs: {
       class: 'container mx-auto bg-white dark:bg-gray-900'
