@@ -4,7 +4,7 @@
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
               <a href="http://localhost:3000/" class="flex items-center">
-                  <img src="http://localhost:1337/uploads/cake_5cd06906da.png" class="h-8 me-3" alt="FlowBite Logo" />
+                  <img src="https://4ccc2241e457.vps.myjino.ru/uploads/cake_5cd06906da.png" class="h-8 me-3" alt="FlowBite Logo" />
                   <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">cake</span>
               </a>
           </div>

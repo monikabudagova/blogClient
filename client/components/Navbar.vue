@@ -12,7 +12,7 @@
         <button @click="isDarkMode = isDarkMode == '' ? 'dark' : ''" class="bg-white-100">🌙</button>
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="http://localhost:3000/" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="http://localhost:1337/uploads/cake_5cd06906da.png" class="h-8" alt="" />
+        <img src="https://4ccc2241e457.vps.myjino.ru/uploads/cake_5cd06906da.png" class="h-8" alt="" />
         <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">cake</span>
     </a>
     <div class="flex md:order-2">
