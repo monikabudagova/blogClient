@@ -20,6 +20,7 @@
     const api = await $fetch(`https://4ccc2241e457.vps.myjino.ru/api/posts/${id}?populate=*`)
     const post = api.data
     const mark = markdown.render(post.body);
+console.log(mark);
 
 
   </script>
