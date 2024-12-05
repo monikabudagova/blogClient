@@ -11,8 +11,15 @@
   
   
   <script setup>
+  import MarkdownIt from "markdown-it";
+  const markdown = new MarkdownIt();
+
+
     const base_url = "https://4ccc2241e457.vps.myjino.ru"
     const { id } = useRoute().params
     const api = await $fetch(`https://4ccc2241e457.vps.myjino.ru/api/posts/${id}?populate=*`)
     const post = api.data
+    const mark = markdown.render(post.body);
+
+
   </script>
