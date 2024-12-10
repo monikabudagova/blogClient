@@ -2,8 +2,6 @@
     <h2>Контакты</h2>
     <main>
         <h1>monika</h1>
-     
-
         <div class="gallery">
         <img src="https://via.placeholder.com/150" alt="Image 1">
         <img src="https://via.placeholder.com/150" alt="Image 2">
@@ -12,8 +10,6 @@
         <img src="https://via.placeholder.com/150" alt="Image 5">
     </div>
 </main>
-
-
 
 </template>
 
