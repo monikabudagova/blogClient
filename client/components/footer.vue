@@ -4,8 +4,8 @@
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
               <a href="http://localhost:3000/" class="flex items-center">
-                  <img src="https://4ccc2241e457.vps.myjino.ru/uploads/cake_5cd06906da.png" class="h-8 me-3" alt="FlowBite Logo" />
-                  <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">cake</span>
+                  <img src="https://4ccc2241e457.vps.myjino.ru/uploads/free_icon_music_note_1816908_d69a810bac.svg" class="h-8 me-3" alt="FlowBite Logo" />
+                  <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">music</span>
               </a>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">

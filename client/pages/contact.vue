@@ -14,26 +14,24 @@
 </template>
 
 <style scoped>
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
 
+.gallery img {
+    width: 150px;
+    height: 150px;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
 
-            .gallery {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                display: flex;
-                gap: 20px;
-            }
-
-            .gallery img {
-                width: 150px;
-                height: 150px;
-                transition: transform 0.3s ease;
-                border-radius: 10px;
-            }
-
-            .gallery img:hover {
-                transform: scale(1.2) translateY(-10px);
-            }
+.gallery img:hover {
+    transform: scale(1.2) translateY(-10px);
+}
 
 body {
     display: flex;
