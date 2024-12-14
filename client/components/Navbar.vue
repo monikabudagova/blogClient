@@ -75,10 +75,6 @@ const route = useRoute()
 const isActive = (path) => route.path.split('/')[1] === path
 const isDarkMode = ref('')
 
-
-const activeClass = ref('text-blue-500')
-
-
 useHead({
     htmlAttrs: {
         class: isDarkMode
