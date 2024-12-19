@@ -1,10 +1,9 @@
 <template>
-    <main>  
-        <h1>последние новости</h1>
-     <a href="большая_страница.html" class="vinyl-button">
-        <div class="vinyl"></div>
-    </a> 
-    <button v-if="!(displayedPosts.length === posts.length)" @click="loadMore" type="button" class="w-full text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800">Смотреть все</button>
+    <main>
+        <a href="https://cad73a483266.vps.myjino.ru/blog" class="vinyl-button" target="_blank">
+            <div class="vinyl"></div>
+        </a> 
+        <button v-if="!(displayedPosts.length === posts.length)" @click="loadMore" type="button" class="w-full text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800">Смотреть все</button>
     </main>
 </template>
 
@@ -19,26 +18,7 @@ const loadMore = () => {
 </script>
 
 <style scoped>
-.gallery {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    gap: 20px;
-}
-
-.gallery img {
-    width: 150px;
-    height: 150px;
-    transition: transform 0.3s ease;
-    border-radius: 10px;
-}
-
-.gallery img:hover {
-    transform: scale(1.2) translateY(-10px);
-}
-
-body {
+     body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,9 +27,21 @@ body {
     margin: 0;
 }
 
+main {
+    display: flex;
+    flex-direction: column; /* Вертикальное расположение элементов */
+    align-items: center; /* Центрирование элементов по горизонтали */
+    color: #000000;
+    background-color: #5271FF;
+    padding: 20px; /* Отступы вокруг содержимого */
+    border-radius: 10px; /* Закругление углов */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Тень для основного контейнера */
+}
+
 .vinyl-button {
     display: inline-block;
     text-decoration: none;
+    margin: 20px 0; /* Отступы сверху и снизу для кнопки */
 }
 
 .vinyl {
@@ -63,9 +55,11 @@ body {
     cursor: pointer;
     transition: transform 0.2s;
 }
+
 .vinyl:hover {
     transform: scale(1.05);
 }
+
 .vinyl:before {
     content: '';
     position: absolute;
@@ -78,12 +72,23 @@ body {
     transform: translate(-50%, -50%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-main{
-    color: #000000;
-    background-color: #5271FF;
+
+h1 {
+    text-align: center; /* Центрирование заголовка */
 }
-h2{
-    display: flex;
-    justify-content: center;
+
+.view-all-button {
+    margin-top: 20px; /* Отступ сверху для кнопки "Смотреть все" */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    background-color: #007BFF; /* Цвет фона кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none; /* Убираем рамку */
+    border-radius: 5px; /* Закругление углов кнопки */
+    cursor: pointer; /* Указатель при наведении */
+    transition: background-color 0.3s; /* Плавный переход цвета фона */
+}
+
+.view-all-button:hover {
+    background-color: #0056b3; /* Цвет фона при наведении */
 }
 </style>
