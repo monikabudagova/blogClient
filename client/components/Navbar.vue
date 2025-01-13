@@ -95,7 +95,7 @@ useHead({
     padding: 10px;
     }
     ul {
-        background-color: #95B1EE;
+        
         height: 50px;
         width: max;
         justify-content: space-evenly;
