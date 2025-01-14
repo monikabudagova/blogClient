@@ -85,7 +85,7 @@ body {
   left: 0;
   transform-origin: left top;
 }
-
+/* 
 .bouncing-blob--blue {
   background: #4783c7;
 }
@@ -102,7 +102,7 @@ body {
 
 .bouncing-blob--pink {
   background: #e289cd50;
-}
+} */
 
 .bouncing-blobs-container {
   position: fixed;
