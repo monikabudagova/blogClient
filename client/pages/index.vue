@@ -26,7 +26,7 @@
   
   <section>
     <div class="parallax-two">
-      <h2>2024</h2>
+      <h2>2025</h2>
     </div>
   </section>
   
