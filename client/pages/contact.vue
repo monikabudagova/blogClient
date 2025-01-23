@@ -15,7 +15,7 @@
       </div>
       <div class="container-lg">
         <ul class="social fa-ul">
-          <li><i class="fa fa-li fa-envelope"></i><a href="mailto:budagova.monika5@yandex.ru">budagova.monika5@yandex.ru</a></li>
+          <li><i class="fa fa-li fa-envelope"></i><a href="mailto:budagova.monika5@yandex.ru">budagova@yandex.ru</a></li>
           <li><i class="fa fa-li fa-phone"></i><a href="tel:+79804757075">+7 (980)-475-70 75</a></li>
           <li><i class="fa fa-li fa-github"></i><a href="https://github.com/monikabudagova">GitHub</a></li>
         </ul>

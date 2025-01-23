@@ -1,5 +1,6 @@
 <template>
   <main>
+    
     <div id="parallax-world-of-ugg">
       <section>
         <div class="title">
