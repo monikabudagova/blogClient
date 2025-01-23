@@ -19,11 +19,16 @@
                           <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                               d="m1 9 4-4-4-4" />
                       </svg>
-                      <NuxtLink :to="'/category/' + post.categories?.[0].documentId"
+                      <!-- <NuxtLink :to="'/category/' + post.categories?.[0].documentId"
                           class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">
                           {{ post.categories?.[0]?.title || 'Без категории' }}
                           
-                      </NuxtLink>
+                      </NuxtLink> -->
+                      <NuxtLink v-if="post.categories && post.categories.length > 0"
+                            :to="'/category/' + post.categories[0].documentId"
+                            class="ms-1 text-sm font-medium text-gray-700 hover:text-blue-600 md:ms-2 dark:text-gray-400 dark:hover:text-white">
+                            {{ post.categories[0]?.title || 'Без категории' }}
+                        </NuxtLink>
                   </div>
               </li>
               <li aria-current="page">

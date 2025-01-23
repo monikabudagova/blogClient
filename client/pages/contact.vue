@@ -39,7 +39,7 @@
     <div class="bouncing-blob bouncing-blob--pink"></div>
   </div>
 </div>
-<div class="hero">
+<div class="hero  text-black  dark:text-white">
   <h2>КОНТАКТЫ</h2>
 
 </div>
@@ -150,14 +150,14 @@ body {
   font-weight: bold;
   text-transform: capitalize;
   margin-bottom: 20px;
-  color: #021123;
+
 }
 
 .hero p {
   font-size: 24px;
   max-width: 500px;
   text-align: center;
-  color: #021123;
+
 }
 
 @media (max-width: 1200px) {
