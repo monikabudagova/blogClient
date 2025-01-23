@@ -1,7 +1,7 @@
 <template>
   <main>
     
-    <div id="parallax-world-of-ugg">
+    <div id="parallax-world-of-ugg" class="bg-white text-black dark:bg-black dark:text-white">
       <section>
         <div class="title">
           <h3>The World of Celebrities:</h3>
@@ -16,7 +16,7 @@
       </section>
 
       <section>
-        <div class="block">
+        <div class="block bg-white dark:bg-black">
           <p><span class="first-character sc">З</span>наменитости — это не просто люди, которые оказались на виду; это
             культурные иконки, вдохновляющие миллионы своих поклонников. Каждый из них представляет собой уникальную
             историю о страсти, трудолюбии и, конечно же, таланте. Давайте рассмотрим несколько категорий знаменитостей,
@@ -166,7 +166,7 @@ const loadMore = () => {
   font-size: 24px;
   font-weight: 400;
   text-transform: uppercase;
-  color: black;
+
   padding: 0;
   margin: 0;
 }
@@ -190,7 +190,7 @@ const loadMore = () => {
   font-weight: 400;
   letter-spacing: 8px;
   text-transform: uppercase;
-  color: black;
+
 }
 
 #parallax-world-of-ugg p {
@@ -226,7 +226,7 @@ const loadMore = () => {
 /* Section - Title */
 /**************************/
 #parallax-world-of-ugg .title {
-  background: white;
+  
   padding: 60px;
   margin: 0 auto;
   text-align: center;
@@ -240,7 +240,7 @@ const loadMore = () => {
 /* Section - Block */
 /**************************/
 #parallax-world-of-ugg .block {
-  background: white;
+
   padding: 60px;
   width: 820px;
   margin: 0 auto;

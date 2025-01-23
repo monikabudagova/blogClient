@@ -1,35 +1,24 @@
 <template>
-    <div class="absolute -left-20 top-2 ya-share2" data-curtain data-services="messenger,vkontakte,odnoklassniki,telegram,viber,whatsapp"></div>
+    <div class="absolute -left-20 top-2 ya-share2" data-curtain
+        data-services="messenger,vkontakte,odnoklassniki,telegram,viber,whatsapp"></div>
 </template>
 
 <script setup>
-import('https://yastatic.net/share2/share.js')
+import { onMounted } from 'vue';
 
-useHead({
-    head: {
-        script: [
-            {
-                src: 'https://yastatic.net/share2/share.js',
-                async: true,
-                defer: true
-            }
-        ]
-    }
-})
-
+// Загрузка скрипта Yandex Share
 const loadShareScript = () => {
-  useHead({
-      script: [
-          {
-            src: 'https://yastatic.net/share2/share.js',
-            async: true,
-            defer: true
-          }
-      ]
-  })
-}
+    if (!document.querySelector('script[src="https://yastatic.net/share2/share.js"]')) {
+        const script = document.createElement('script');
+        script.src = 'https://yastatic.net/share2/share.js';
+        script.async = true;
+        script.defer = true;
+        document.head.appendChild(script);
+    }
+};
 
-onMounted(loadShareScript())
+// Вызываем загрузку скрипта при монтировании компонента
+onMounted(loadShareScript);
 </script>
 
 <style>
