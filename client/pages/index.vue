@@ -1,7 +1,5 @@
 <template>
   <main>
-      
-
     <div id="parallax-world-of-ugg" class="bg-white text-black dark:bg-black dark:text-white">
       <section>
         <div class="title">
