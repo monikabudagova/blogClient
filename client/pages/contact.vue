@@ -15,10 +15,10 @@
       </div>
       <div class="container-lg">
         <ul class="social fa-ul">
-          <li><i class="fa fa-li fa-envelope"></i><a href="mailto:budagova.monika5@yandex.ru">budagova@yandex.ru</a></li>
-          <li><i class="fa fa-li fa-phone"></i><a href="tel:+79804757075">+7 (980)-475-70 75</a></li>
-          <li><i class="fa fa-li fa-github"></i><a href="https://github.com/monikabudagova">GitHub</a></li>
-        </ul>
+        <li><i class="fa fa-li fa-envelope"></i><a href="mailto:budagova.monika5@yandex.ru">budagova.monika5@yandex.ru</a></li>
+        <li><i class="fa fa-li fa-phone"></i><a href="tel:+79804757075">+7 (980)-475-70 75</a></li>
+        <li><i class="fa fa-li fa-github"></i><a href="https://github.com/monikabudagova">GitHub</a></li>
+    </ul>
       </div>
     </div>
   </div>
@@ -53,37 +53,36 @@
 
 <style scoped>
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color: black;
-  background-color: whitesmoke;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: black;
+    background-color: whitesmoke;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
 }
 
-.bouncing-blob {
-  width: 32vw;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  will-change: transform;
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  transform-origin: left top;
+.business-card {
+    height: 427px;
+    width: 320px;
+    margin-left: -160px; /* $width/-2 */
+    margin-top: -213.5px; /* $height/-2 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    perspective: 1000;
+    word-wrap: break-word; /* Позволяет длинным словам переноситься на новую строку */
+    overflow-wrap: break-word; /* Совместимость с различными браузерами */
 }
 /* 
 .bouncing-blob--blue {

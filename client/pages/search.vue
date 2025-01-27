@@ -1,5 +1,5 @@
 <template>
-    <h1 class="text-2xl font-medium">Поиск</h1>
+    <h1 class="text-2xl font-medium bg-white text-black dark:bg-gray-900 dark:text-white">Поиск</h1>
     <main>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4 mb-4">
         <article v-for="post in posts" :key="post.id" class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
@@ -22,7 +22,7 @@
             </div>
         </article>
         </div>
-        <p v-if="posts.length === 0">По вашему запросу ничего не найдено.</p>
+        <p v-if="posts.length === 0" class="bg-white text-black dark:bg-gray-900 dark:text-white">По вашему запросу ничего не найдено.</p>
     </main>
 </template>
 

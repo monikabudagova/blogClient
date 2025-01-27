@@ -1,8 +1,9 @@
 <template>
   <main>
-    <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Каждая <mark class="px-2 text-white bg-violet-500 rounded-sm dark:bg-violet-600">звезда</mark> — это история.</h1>
-    <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">Каждая звезда — это история. Давайте узнаем их тайны.</p>
-    <div id="parallax-world-of-ugg" class="bg-white text-black dark:bg-black dark:text-white">
+    <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white font-sans">Каждая <mark class="px-2 text-white bg-violet-500 rounded-sm dark:bg-violet-600">звезда</mark> — это история.</h1>
+    <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 font-sans">Давайте узнаем их тайны.</p>
+
+    <div id="parallax-world-of-ugg" class="bg-white text-black dark:bg-gray-900 dark:text-white">
       <section>
         <div class="title">
           <h3>The World of Celebrities:</h3>
@@ -17,7 +18,7 @@
       </section>
 
       <section>
-        <div class="block bg-white dark:bg-black">
+        <div class="block bg-white dark:bg-gray-900">
           <p><span class="first-character sc">З</span>наменитости — это не просто люди, которые оказались на виду; это
             культурные иконки, вдохновляющие миллионы своих поклонников. Каждый из них представляет собой уникальную
             историю о страсти, трудолюбии и, конечно же, таланте. Давайте рассмотрим несколько категорий знаменитостей,
