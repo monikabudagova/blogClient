@@ -6,8 +6,8 @@
     <div id="parallax-world-of-ugg" class="bg-white text-black dark:bg-gray-900 dark:text-white">
       <section>
         <div class="title text-center mb-6">
-          <h3 class="text-lg text-gray-700 font-sans md:text-xl">The World of Celebrities:</h3>
-          <h1 class="text-2xl font-bold text-black font-sans md:text-4xl">Мир Знаменитостей:</h1>
+          <h3 class="text-lg text-gray-700 font-sans md:text-xl text-black  dark:text-white">The World of Celebrities:</h3>
+          <h1 class="text-2xl font-bold text-black font-sans md:text-4xl text-black  dark:text-white">Мир Знаменитостей:</h1>
         </div>
       </section>
 
