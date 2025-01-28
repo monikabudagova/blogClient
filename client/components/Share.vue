@@ -1,6 +1,10 @@
 <template>
     <div class="absolute -left-20 top-2 ya-share2" data-curtain
-        data-services="messenger,vkontakte,odnoklassniki,telegram,viber,whatsapp"></div>
+        data-services="telegram,whatsapp"
+        data-url="https://t.me/immoniks" 
+        data-title="Посетите мой GitHub" 
+        data-description="Здесь вы найдете мои проекты и репозитории." 
+        data-image="https://wa.me/79804757075"></div>
 </template>
 
 <script setup>
