@@ -1,13 +1,15 @@
 <template>
   <main>
-    <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white font-sans">Каждая <mark class="px-2 text-white bg-violet-500 rounded-sm dark:bg-violet-600">звезда</mark> — это история.</h1>
+    <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white font-sans">
+      Каждая <mark class="px-2 text-white bg-violet-500 rounded-sm dark:bg-violet-600">звезда</mark> — это история.
+    </h1>
     <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400 font-sans">Давайте узнаем их тайны.</p>
 
     <div id="parallax-world-of-ugg" class="bg-white text-black dark:bg-gray-900 dark:text-white">
       <section>
         <div class="title text-center mb-6">
-          <h3 class="text-lg text-gray-700 font-sans md:text-xl text-black  dark:text-white">The World of Celebrities:</h3>
-          <h1 class="text-2xl font-bold text-black font-sans md:text-4xl text-black  dark:text-white">Мир Знаменитостей:</h1>
+          <h3 class="text-lg text-gray-700 font-sans md:text-xl text-black dark:text-white">The World of Celebrities:</h3>
+          <h1 class="text-2xl font-bold text-black font-sans md:text-4xl dark:text-white">Мир Знаменитостей:</h1>
         </div>
       </section>
 
@@ -19,14 +21,9 @@
 
       <section>
         <div class="block bg-white dark:bg-gray-900">
-          <p><span class="first-character sc">З</span>наменитости — это не просто люди, которые оказались на виду; это
-            культурные иконки, вдохновляющие миллионы своих поклонников. Каждый из них представляет собой уникальную
-            историю о страсти, трудолюбии и, конечно же, таланте. Давайте рассмотрим несколько категорий знаменитостей,
-            среди которых можно выделить музыкантов, стримеров и актеров. </p>
+          <p><span class="first-character sc">З</span>наменитости — это не просто люди, которые оказались на виду; это культурные иконки, вдохновляющие миллионы своих поклонников. Каждый из них представляет собой уникальную историю о страсти, трудолюбии и, конечно же, таланте. Давайте рассмотрим несколько категорий знаменитостей, среди которых можно выделить музыкантов, стримеров и актеров.</p>
           <p class="line-break margin-top-10"></p>
-          <p class="margin-top-10"> <br>Музыканты: Звуки Мира. <br> Музыка — это универсальный язык, способный
-            объединять людей, независимо от их происхождения или культурных традиций. Музыканты выражают эмоции и мысли,
-            которые трудно передать словами. </p>
+          <p class="margin-top-10"> <br>Музыканты: Звуки Мира. <br> Музыка — это универсальный язык, способный объединять людей, независимо от их происхождения или культурных традиций. Музыканты выражают эмоции и мысли, которые трудно передать словами.</p>
         </div>
       </section>
 
@@ -38,15 +35,11 @@
 
       <section>
         <div class="block">
-          <p><span class="first-character ny">С</span>овременные Иконы. В последние десятилетия мы стали свидетелями
-            появления множества звезд, которые изменили музыкальную индустрию. Например:</p>
+          <p><span class="first-character ny">С</span>овременные Иконы. В последние десятилетия мы стали свидетелями появления множества звезд, которые изменили музыкальную индустрию. Например:</p>
           <p class="line-break margin-top-10"></p>
-          <p class="margin-top-10">1. Билли Айлиш — подростковая икона, чья музыка затрагивает темы борьбы с внутренними
-            демонами и социальной справедливости, становится все более популярной среди молодежи.
-            <br> 2. Тейлор Свифт — одна из самых продаваемых певиц всех времен, она мастерски сочетает элементы поп и
-            кантри, рассказывая истории из своей жизни в каждой песне.
-            <br> 3. Бейонсе — символ силы и феминизма, Бейонсе не только впечатляет своим вокалом, но и активно
-            занимается благотворительностью.
+          <p class="margin-top-10">1. Билли Айлиш — подростковая икона, чья музыка затрагивает темы борьбы с внутренними демонами и социальной справедливости, становится все более популярной среди молодежи.<br> 
+            2. Тейлор Свифт — одна из самых продаваемых певиц всех времен, она мастерски сочетает элементы поп и кантри, рассказывая истории из своей жизни в каждой песне.<br> 
+            3. Бейонсе — символ силы и феминизма, Бейонсе не только впечатляет своим вокалом, но и активно занимается благотворительностью.
           </p>
         </div>
       </section>
@@ -59,21 +52,14 @@
 
       <section>
         <div class="block">
-          <p><span class="first-character atw">В</span>дальнейшим развитием технологий, таких как стриминг, музыканты
-            имеют возможность мгновенно доносить свои произведения до глобальной аудитории. Платформы, такие как Spotify
-            и Apple Music, изменили правила игры, позволяя независимым исполнителям находить своих слушателей по всему
-            миру.</p>
+          <p><span class="first-character atw">В</span>дальнейшим развитием технологий, таких как стриминг, музыканты имеют возможность мгновенно доносить свои произведения до глобальной аудитории. Платформы, такие как Spotify и Apple Music, изменили правила игры, позволяя независимым исполнителям находить своих слушателей по всему миру.</p>
           <p class="line-break margin-top-10"></p>
-          <p class="margin-top-10">Стримеры: Эра Цифровых Влияний. Стриминг стал настоящим феноменом, который изменил
-            мир развлечений. Стримеры — это не только игроки, но и креативные личности, которые делятся своим стилем
-            жизни, играми и мнением с интернет-аудиторией. <br> Популярные Стримеры
+          <p class="margin-top-10">Стримеры: Эра Цифровых Влияний. Стриминг стал настоящим феноменом, который изменил мир развлечений. Стримеры — это не только игроки, но и креативные личности, которые делятся своим стилем жизни, играми и мнением с интернет-аудиторией. <br> Популярные Стримеры
             Некоторые стримеры стали настоящими звездами, привлекая миллионы подписчиков: <br>
-            1. Твич — платформа, на которой стримеры могут демонстрировать игру в реальном времени. Такие знаменитости,
-            как Ниндзя и Покимане, стали примерами того, как стриминг может привести к массовой популярности.
-            2. Ютуберы — на YouTube также полно ярких личностей. Например, Логан Пол и его брат Джейк Пол, которые стали
-            звездами благодаря разнообразному контенту и мощным маркетинговым ходам. <br> Влияние Социальных Сетей <br>
-            Стримеры используют социальные сети для продвижения своего контента и взаимодействия с поклонниками.
-            Instagram, Twitter и TikTok помогают строить личные бренды и создавать свой уникальный стиль. </p>
+            1. Твич — платформа, на которой стримеры могут демонстрировать игру в реальном времени. Такие знаменитости, как Ниндзя и Покимане, стали примерами того, как стриминг может привести к массовой популярности.<br>
+            2. Ютуберы — на YouTube также полно ярких личностей. Например, Логан Пол и его брат Джейк Пол, которые стали звездами благодаря разнообразному контенту и мощным маркетинговым ходам. <br> Влияние Социальных Сетей <br>
+            Стримеры используют социальные сети для продвижения своего контента и взаимодействия с поклонниками. Instagram, Twitter и TikTok помогают строить личные бренды и создавать свой уникальный стиль.
+          </p>
         </div>
       </section>
 
@@ -85,19 +71,12 @@
 
       <section>
         <div class="block">
-          <p><span class="first-character sc">А</span>ктеры играют ключевую роль в мире развлечений, они воплощают на
-            экране различные персонажи, представляя собой сложные и многогранные образы.</p>
+          <p><span class="first-character sc">А</span>ктеры играют ключевую роль в мире развлечений, они воплощают на экране различные персонажи, представляя собой сложные и многогранные образы.</p>
           <p class="line-break margin-top-10"></p>
-          <p class="margin-top-10">Знаменитости Голливуда <br>Среди актеров можно отметить: <br> 1. Леонардо ДиКаприо —
-            известный своими экологическими инициативами и талантом, он завоевал сердца зрителей благодаря ролям в таких
-            фильмах, как "Титаник", "Волк с Уолл-стрит" и "Остров проклятых". <br>2. Мерил Стрип — обладательница
-            множества Оскаров, она считается одной из величайших актрис всех времен, благодаря своей способности
-            вживаться в самые разнообразные роли. <br> Новое Поколение <br> Молодые актеры, такие как Том Холланд и
-            Сайенна Миллер, также завоевывают популярность, представляя новое поколение талантливых исполнителей,
-            которые готовы менять правила игры.</p>
+          <p class="margin-top-10">Знаменитости Голливуда <br>Среди актеров можно отметить: <br> 1. Леонардо ДиКаприо — известный своими экологическими инициативами и талантом, он завоевал сердца зрителей благодаря ролям в таких фильмах, как "Титаник", "Волк с Уолл-стрит" и "Остров проклятых". <br>2. Мерил Стрип — обладательница множества Оскаров, она считается одной из величайших актрис всех времен, благодаря своей способности вживаться в самые разнообразные роли. <br> Новое Поколение <br> Молодые актеры, такие как Том Холланд и Сайенна Миллер, также завоевывают популярность, представляя новое поколение талантливых исполнителей, которые готовы менять правила игры.
+          </p>
         </div>
       </section>
-
 
       <section>
         <div class="parallax-five">
@@ -107,18 +86,11 @@
 
       <section>
         <div class="block">
-          <p><span class="first-character ny">М</span>ир знаменитостей — это калейдоскоп эмоций, таланта и влияния.
-            Музыканты, стримеры и актеры все вместе создают уникальную культуру, которая отражает современное общество.
-            Изучая их истории, мы можем находить вдохновение и готовность следовать своим мечтам.</p>
+          <p><span class="first-character ny">М</span>ир знаменитостей — это калейдоскоп эмоций, таланта и влияния. Музыканты, стримеры и актеры все вместе создают уникальную культуру, которая отражает современное общество. Изучая их истории, мы можем находить вдохновение и готовность следовать своим мечтам.</p>
           <p class="line-break margin-top-10"></p>
-          <p class="margin-top-10">Понимание их влияния на общество поможет нам лучше осознать, как они формируют нашу
-            культуру. От музыки до кино, от гейминга до прямых трансляций — знаменитости остаются важной частью нашего
-            культурного пространства. Каждый из них, будь то музыкант, стример или актер, оставляет свой след в истории
-            и вдохновляет новые поколения на творчество и самовыражение.</p>
+          <p class="margin-top-10">Понимание их влияния на общество поможет нам лучше осознать, как они формируют нашу культуру. От музыки до кино, от гейминга до прямых трансляций — знаменитости остаются важной частью нашего культурного пространства. Каждый из них, будь то музыкант, стример или актер, оставляет свой след в истории и вдохновляет новые поколения на творчество и самовыражение.</p>
         </div>
       </section>
-
-
     </div>
   </main>
 </template>
@@ -228,7 +200,6 @@ const loadMore = () => {
 /* Section - Title */
 /**************************/
 #parallax-world-of-ugg .title {
-  
   padding: 60px;
   margin: 0 auto;
   text-align: center;
@@ -242,7 +213,6 @@ const loadMore = () => {
 /* Section - Block */
 /**************************/
 #parallax-world-of-ugg .block {
-
   padding: 60px;
   width: 820px;
   margin: 0 auto;
@@ -275,10 +245,8 @@ const loadMore = () => {
   background-image: url(https://s.yimg.com/ny/api/res/1.2/C1VtvnjNU3wGs7Q97BMQLw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04Mjg-/https://media.zenfs.com/en/footwear_news_642/42d7f5899c3c17bc0e89e45b5dfa675b);
   background-attachment: fixed;
   background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center;
 }
 
 #parallax-world-of-ugg .parallax-two {
@@ -290,10 +258,8 @@ const loadMore = () => {
   background-image: url(https://s.yimg.com/ny/api/res/1.2/1DjH9fNGSgMRiFJpXtDD7A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03OTQ-/https://media.zenfs.com/en/billboard_547/70f5b9c53a2a63c45a18193c57763a50);
   background-attachment: fixed;
   background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
 }
 
 #parallax-world-of-ugg .parallax-three {
@@ -305,10 +271,8 @@ const loadMore = () => {
   background-image: url(https://s.yimg.com/ny/api/res/1.2/._S8VNN48BQRjsaAarh47g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/pc_gamer_708/8115377410ab0cb2e0f4fbdb5a770f57);
   background-attachment: fixed;
   background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
 }
 
 #parallax-world-of-ugg .parallax-four {
@@ -320,10 +284,8 @@ const loadMore = () => {
   background-image: url(https://vkplay.ru/pre_0x736_resize/hotbox/content_files/Stories/2024/05/15/325f5b39bbfb430ab5fa279b6055f6b0.jpg?quality=85);
   background-attachment: fixed;
   background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
 }
 
 #parallax-world-of-ugg .parallax-five {
@@ -335,10 +297,8 @@ const loadMore = () => {
   background-image: url(https://dropi.ru/img/uploads/2017-12-27/3_original.jpeg);
   background-attachment: fixed;
   background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
 }
 
 /* Extras */
@@ -390,8 +350,15 @@ const loadMore = () => {
 
 
 
+
+
+
+
+
+
+
 <!-- <template>
-  <main class="bg-gray-50 dark:bg-gray-900 p-6">
+  <main class="w-full">
     <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white font-sans">
       Каждая <mark class="px-2 text-white bg-violet-500 rounded-sm dark:bg-violet-600">звезда</mark> — это история.
     </h1>
@@ -400,88 +367,85 @@ const loadMore = () => {
     <div id="parallax-world-of-ugg" class="bg-white text-black dark:bg-gray-900 dark:text-white">
       <section>
         <div class="title text-center mb-6">
-          <h3 class="text-lg text-gray-700 font-sans md:text-xl dark:text-white">The World of Celebrities:</h3>
+          <h3 class="text-lg text-gray-700 font-sans md:text-xl text-black dark:text-white">The World of Celebrities:</h3>
           <h1 class="text-2xl font-bold text-black font-sans md:text-4xl dark:text-white">Мир Знаменитостей:</h1>
         </div>
       </section>
 
       <section>
-        <div class="parallax-one bg-cover bg-center py-48" style="background-image: url('https://s.yimg.com/ny/api/res/1.2/C1VtvnjNU3wGs7Q97BMQLw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04Mjg-/https://media.zenfs.com/en/footwear_news_642/42d7f5899c3c17bc0e89e45b5dfa675b');">
-          <h2 class="text-white text-5xl text-center">ВДОХНОВЕНИЕ, ТАЛАНТЫ И КУЛЬТУРЫ СОВРЕМЕННОСТИ</h2>
+        <div class="parallax-one pt-52 pb-52 overflow-hidden relative w-full bg-cover bg-center" style="background-image: url('https://s.yimg.com/ny/api/res/1.2/C1VtvnjNU3wGs7Q97BMQLw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04Mjg-/https://media.zenfs.com/en/footwear_news_642/42d7f5899c3c17bc0e89e45b5dfa675b');">
+          <h2 class="text-white text-7xl text-center font-sans">ВДОХНОВЕНИЕ, ТАЛАНТЫ И КУЛЬТУРЫ СОВРЕМЕННОСТИ</h2>
         </div>
       </section>
 
       <section>
-        <div class="block p-6 bg-white dark:bg-gray-800">
+        <div class="block bg-white dark:bg-gray-900 p-16 mx-auto text-justify w-3/4">
           <p><span class="first-character sc">З</span>наменитости — это не просто люди, которые оказались на виду; это культурные иконки, вдохновляющие миллионы своих поклонников. Каждый из них представляет собой уникальную историю о страсти, трудолюбии и, конечно же, таланте. Давайте рассмотрим несколько категорий знаменитостей, среди которых можно выделить музыкантов, стримеров и актеров.</p>
-          <p class="line-break my-10"></p>
-          <p>Музыканты: Звуки Мира. Музыка — это универсальный язык, способный объединять людей, независимо от их происхождения или культурных традиций. Музыканты выражают эмоции и мысли, которые трудно передать словами.</p>
+          <div class="border-b border-black w-36 mx-auto my-10"></div>
+          <p>Музыканты: Звуки Мира. <br> Музыка — это универсальный язык, способный объединять людей, независимо от их происхождения или культурных традиций. Музыканты выражают эмоции и мысли, которые трудно передать словами.</p>
         </div>
       </section>
 
       <section>
-        <div class="parallax-two bg-cover bg-center py-48" style="background-image: url('https://s.yimg.com/ny/api/res/1.2/1DjH9fNGSgMRiFJpXtDD7A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03OTQ-/https://media.zenfs.com/en/billboard_547/70f5b9c53a2a63c45a18193c57763a50');">
-          <h2 class="text-white text-5xl text-center">2025</h2>
+        <div class="parallax-two pt-52 pb-52 overflow-hidden relative w-full bg-cover bg-center" style="background-image: url('https://s.yimg.com/ny/api/res/1.2/1DjH9fNGSgMRiFJpXtDD7A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03OTQ-/https://media.zenfs.com/en/billboard_547/70f5b9c53a2a63c45a18193c57763a50');">
+          <h2 class="text-white text-7xl text-center font-sans">2025</h2>
         </div>
       </section>
 
       <section>
-        <div class="block p-6 bg-white dark:bg-gray-800">
+        <div class="block p-16 mx-auto text-justify w-3/4">
           <p><span class="first-character ny">С</span>овременные Иконы. В последние десятилетия мы стали свидетелями появления множества звезд, которые изменили музыкальную индустрию. Например:</p>
-          <p class="line-break my-10"></p>
-          <p>1. Билли Айлиш — подростковая икона, чья музыка затрагивает темы борьбы с внутренними демонами и социальной справедливости, становится все более популярной среди молодежи.<br>
-          2. Тейлор Свифт — одна из самых продаваемых певиц всех времен, она мастерски сочетает элементы поп и кантри, рассказывая истории из своей жизни в каждой песне.<br>
-          3          . Бейонсе — символ силы и феминизма, Бейонсе не только впечатляет своим вокалом, но и активно занимается благотворительностью.</p>
+          <div class="border-b border-black w-36 mx-auto my-10"></div>
+          <p>1. Билли Айлиш — подростковая икона, чья музыка затрагивает темы борьбы с внутренними демонами и социальной справедливости, становится все более популярной среди молодежи.<br> 
+            2. Тейлор Свифт — одна из самых продаваемых певиц всех времен, она мастерски сочетает элементы поп и кантри, рассказывая истории из своей жизни в каждой песне.<br> 
+            3. Бейонсе — символ силы и феминизма, Бейонсе не только впечатляет своим вокалом, но и активно занимается благотворительностью.
+          </p>
         </div>
       </section>
 
       <section>
-        <div class="parallax-three bg-cover bg-center py-48" style="background-image: url('https://s.yimg.com/ny/api/res/1.2/._S8VNN48BQRjsaAarh47g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/pc_gamer_708/8115377410ab0cb2e0f4fbdb5a770f57');">
-          <h2 class="text-white text-5xl text-center">НОВЫЕ ТРЕНДЫ</h2>
+        <div class="parallax-three pt-52 pb-52 overflow-hidden relative w-full bg-cover bg-center" style="background-image: url('https://s.yimg.com/ny/api/res/1.2/._S8VNN48BQRjsaAarh47g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/pc_gamer_708/8115377410ab0cb2e0f4fbdb5a770f57');">
+          <h2 class="text-white text-7xl text-center font-sans">НОВЫЕ ТРЕНДЫ</h2>
         </div>
       </section>
 
       <section>
-        <div class="block p-6 bg-white dark:bg-gray-800">
+        <div class="block p-16 mx-auto text-justify w-3/4">
           <p><span class="first-character atw">В</span>дальнейшим развитием технологий, таких как стриминг, музыканты имеют возможность мгновенно доносить свои произведения до глобальной аудитории. Платформы, такие как Spotify и Apple Music, изменили правила игры, позволяя независимым исполнителям находить своих слушателей по всему миру.</p>
-          <p class="line-break my-10"></p>
-          <p>Стримеры: Эра Цифровых Влияний. Стриминг стал настоящим феноменом, который изменил мир развлечений. Стримеры — это не только игроки, но и креативные личности, которые делятся своим стилем жизни, играми и мнением с интернет-аудиторией.<br>
-          Популярные Стримеры: Некоторые стримеры стали настоящими звездами, привлекая миллионы подписчиков:<br>
-          1. Твич — платформа, на которой стримеры могут демонстрировать игру в реальном времени. Такие знаменитости, как Ниндзя и Покимане, стали примерами того, как стриминг может привести к массовой популярности.<br>
-          2. Ютуберы — на YouTube также полно ярких личностей. Например, Логан Пол и его брат Джейк Пол, которые стали звездами благодаря разнообразному контенту и мощным маркетинговым ходам.<br>
-          Влияние Социальных Сетей: Стримеры используют социальные сети для продвижения своего контента и взаимодействия с поклонниками. Instagram, Twitter и TikTok помогают строить личные бренды и создавать свой уникальный стиль.</p>
+          <div class="border-b border-black w-36 mx-auto my-10"></div>
+          <p>Стримеры: Эра Цифровых Влияний. Стриминг стал настоящим феноменом, который изменил мир развлечений. Стримеры — это не только игроки, но и креативные личности, которые делятся своим стилем жизни, играми и мнением с интернет-аудиторией. <br> Популярные Стримеры Некоторые стримеры стали настоящими звездами, привлекая миллионы подписчиков: <br>
+            1. Твич — платформа, на которой стримеры могут демонстрировать игру в реальном времени. Такие знаменитости, как Ниндзя и Покимане, стали примерами того, как стриминг может привести к массовой популярности.<br>
+            2. Ютуберы — на YouTube также полно ярких личностей. Например, Логан Пол и его брат Джейк Пол, которые стали звездами благодаря разнообразному контенту и мощным маркетинговым ходам. <br> Влияние Социальных Сетей <br>
+            Стримеры используют социальные сети для продвижения своего контента и взаимодействия с поклонниками. Instagram, Twitter и TikTok помогают строить личные бренды и создавать свой уникальный стиль.
+          </p>
         </div>
       </section>
 
       <section>
-        <div class="parallax-four bg-cover bg-center py-48" style="background-image: url('https://vkplay.ru/pre_0x736_resize/hotbox/content_files/Stories/2024/05/15/325f5b39bbfb430ab5fa279b6055f6b0.jpg?quality=85');">
-          <h2 class="text-white text-5xl text-center">АКТЕРЫ: ИССКУСТВО ПОЛИПТИХА</h2>
+        <div class="parallax-four pt-52 pb-52 overflow-hidden relative w-full bg-cover bg-center" style="background-image: url('https://vkplay.ru/pre_0x736_resize/hotbox/content_files/Stories/2024/05/15/325f5b39bbfb430ab5fa279b6055f6b0.jpg?quality=85');">
+          <h2 class="text-white text-7xl text-center font-sans">АКТЕРЫ: ИССКУСТВО ПОЛИПТИХА</h2>
         </div>
       </section>
 
       <section>
-        <div class="block p-6 bg-white dark:bg-gray-800">
+        <div class="block p-16 mx-auto text-justify w-3/4">
           <p><span class="first-character sc">А</span>ктеры играют ключевую роль в мире развлечений, они воплощают на экране различные персонажи, представляя собой сложные и многогранные образы.</p>
-          <p class="line-break my-10"></p>
-          <p>Знаменитости Голливуда:<br>
-          Среди актеров можно отметить:<br>
-          1. Леонардо ДиКаприо — известный своими экологическими инициативами и талантом, он завоевал сердца зрителей благодаря ролям в таких фильмах, как "Титаник", "Волк с Уолл-стрит" и "Остров проклятых".<br>
-          2. Мерил Стрип — обладательница множества Оскаров, она считается одной из величайших актрис всех времен, благодаря своей способности вживаться в самые разнообразные роли.<br>
-          Новое Поколение:<br>
-          Молодые актеры, такие как Том Холланд и Сайенна Миллер, также завоевывают популярность, представляя новое поколение талантливых исполнителей, которые готовы менять правила игры          .</p>
+          <div class="border-b border-black w-36 mx-auto my-10"></div>
+          <p>Знаменитости Голливуда <br>Среди актеров можно отметить: <br> 1. Леонардо ДиКаприо — известный своими экологическими инициативами и талантом, он завоевал сердца зрителей благодаря ролям в таких фильмах, как "Титаник", "Волк с Уолл-стрит" и "Остров проклятых". <br>2. Мерил Стрип — обладательница множества Оскаров, она считается одной из величайших актрис всех времен, благодаря своей способности вживаться в самые разнообразные роли. <br> Новое Поколение <br> Молодые актеры, такие как Том Холланд и Сайенна Миллер, также завоевывают популярность, представляя новое поколение талантливых исполнителей, которые готовы менять правила игры.
+          </p>
         </div>
       </section>
 
       <section>
-        <div class="parallax-five bg-cover bg-center py-48" style="background-image: url('https://dropi.ru/img/uploads/2017-12-27/3_original.jpeg');">
-          <h2 class="text-white text-5xl text-center">ЗАКЛЮЧЕНИЕ: ВДОХНОВЕНИЕ И ВОЗМОЖНОСТИ</h2>
+        <div class="parallax-five pt-52 pb-52 overflow-hidden relative w-full bg-cover bg-center" style="background-image: url('https://dropi.ru/img/uploads/2017-12-27/3_original.jpeg');">
+          <h2 class="text-white text-7xl text-center font-sans">ЗАКЛЮЧЕНИЕ: ВДОХНОВЕНИЕ И ВОЗМОЖНОСТИ</h2>
         </div>
       </section>
 
       <section>
-        <div class="block p-6 bg-white dark:bg-gray-800">
+        <div class="block p-16 mx-auto text-justify w-3/4">
           <p><span class="first-character ny">М</span>ир знаменитостей — это калейдоскоп эмоций, таланта и влияния. Музыканты, стримеры и актеры все вместе создают уникальную культуру, которая отражает современное общество. Изучая их истории, мы можем находить вдохновение и готовность следовать своим мечтам.</p>
-          <p class="line-break my-10"></p>
+          <div class="border-b border-black w-36 mx-auto my-10"></div>
           <p>Понимание их влияния на общество поможет нам лучше осознать, как они формируют нашу культуру. От музыки до кино, от гейминга до прямых трансляций — знаменитости остаются важной частью нашего культурного пространства. Каждый из них, будь то музыкант, стример или актер, оставляет свой след в истории и вдохновляет новые поколения на творчество и самовыражение.</p>
         </div>
       </section>
@@ -490,10 +454,10 @@ const loadMore = () => {
 </template>
 
 <script setup>
-const base_url = "https://4ccc2241e457.vps.myjino.ru";
-const api = await $fetch('https://4ccc2241e457.vps.myjino.ru/api/posts?populate=*');
-const posts = api.data;
-const displayedPosts = ref(posts.slice(0, 4)); // Первые 4 поста
+const base_url = "https://4ccc2241e457.vps.myjino.ru"
+const api = await $fetch('https://4ccc2241e457.vps.myjino.ru/api/posts?populate=*')
+const posts = api.data
+const displayedPosts = ref(posts.slice(0, 4)); // Первые 3 поста
 const loadMore = () => {
   displayedPosts.value = displayedPosts.value.concat(posts.slice(displayedPosts.value.length, displayedPosts.value.length + 1));
 };
@@ -503,7 +467,7 @@ const loadMore = () => {
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
 
-/* Убедитесь, что шрифты применяются */
+/* Typography */
 .first-character {
   font-weight: 400;
   float: left;
