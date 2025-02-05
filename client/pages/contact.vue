@@ -1,429 +1,144 @@
 <template>
-    <main>
-        <div class="business-card" ontouchstart="this.classList.toggle('hover');">
-  <div class="flipper">
-    <div class="front">
-      <div class="name">
-          <span class="first">Будагова</span> 
-          <span class="last">Моника</span>
-          <span class="title">Web Developer</span>
+  <div class="max-w-md mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105 relative">
+    <div class="absolute inset-0 bg-gradient-to-r from-purple-600 to-indigo-600 opacity-30 rounded-lg"></div>
+    <div class="flex items-center p-6 relative z-10 text-white">
+      <div class="w-24 h-24 bg-white dark:bg-gray-700 rounded-full flex items-center justify-center shadow-lg">
+        <i class="fas fa-user fa-3x text-gray-600"></i>
+      </div>
+      <div class="ml-4">
+        <h2 class="text-4xl font-bold animate__animated animate__fadeIn text-black dark:text-white">Моника Будагова</h2>
+        <p class="mt-1 text-lg animate__animated animate__fadeIn animate__delay-1s text-black dark:text-white">Веб-разработчик</p>
+        <p class="mt-2 text-sm animate__animated animate__fadeIn animate__delay-2s text-black dark:text-white">Создаю современные веб-приложения с использованием передовых технологий.</p>
+      </div>
+    </div>
+
+    <div class="p-6 border-t border-gray-200 dark:border-gray-600 relative z-10">
+      <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200 animate__animated animate__fadeIn">Навыки:</h3>
+      <div class="grid grid-cols-2 gap-4 mt-2">
+        <button class="flex items-center p-2 bg-green-500 text-white rounded-lg shadow-lg hover:bg-green-600 transition duration-300 transform hover:scale-105 animate__animated animate__fadeIn animate__delay-3s">
+          <i class="fab fa-vuejs fa-2x"></i>
+          <span class="ml-2">Vue</span>
+        </button>
+        <button class="flex items-center p-2 bg-gray-800 text-white rounded-lg shadow-lg hover:bg-gray-700 transition duration-300 transform hover:scale-105 animate__animated animate__fadeIn animate__delay-3s">
+          <i class="fab fa-nuxt fa-2x"></i>
+          <span class="ml-2">Nuxt</span>
+        </button>
+        <button class="flex items-center p-2 bg-green-600 text-white rounded-lg shadow-lg hover:bg-green-700 transition duration-300 transform hover:scale-105 animate__animated animate__fadeIn animate__delay-3s">
+          <i class="fab fa-node fa-2x"></i>
+          <span class="ml-2">Node.js</span>
+        </button>
+        <button class="flex items-center p-2 bg-orange-500 text-white rounded-lg shadow-lg hover:bg-orange-600 transition duration-300 transform hover:scale-105 animate__animated animate__fadeIn animate__delay-3s">
+          <i class="fas fa-database fa-2x"></i>
+          <span class="ml-2">Strapi</span>
+        </button>
+        <button class="flex items-center p-2 bg-blue-500 text-white rounded-lg shadow-lg hover:bg-blue-600 transition duration-300 transform hover:scale-105 animate__animated animate__fadeIn animate__delay-3s">
+          <i class="fab fa-tailwindcss fa-2x"></i>
+          <span class="ml-2">Tailwind</span>
+        </button>
+        <button class="flex items-center p-2 bg-purple-500 text-white rounded-lg shadow-lg hover:bg-purple-600 transition duration-300 transform hover:scale-105 animate__animated animate__fadeIn animate__delay-3s">
+          <i class="fas fa-paint-brush fa-2x"></i>
+          <span class="ml-2">Flowbite</span>
+        </button>
+        <button class="flex items-center p-2 bg-orange-600 text-white rounded-lg shadow-lg hover:bg-orange-700 transition duration-300 transform hover:scale-105 animate__animated animate__fadeIn animate__delay-3s">
+          <i class="fab fa-html5 fa-2x"></i>
+          <span class="ml-2">HTML</span>
+        </button>
+        <button class="flex items-center p-2 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-700 transition duration-300 transform hover:scale-105 animate__animated animate__fadeIn animate__delay-3s">
+          <i class="fab fa-css3-alt fa-2x"></i>
+          <span class="ml-2">CSS</span>
+        </button>
+        <button class="flex items-center p-2 bg-yellow-500 text-white rounded-lg shadow-lg hover:bg-yellow-600 transition duration-300 transform hover:scale-105 animate__animated animate__fadeIn animate__delay-3s">
+          <i class="fab fa-js fa-2x"></i>
+          <span class="ml-2">JavaScript</span>
+        </button>
+      </div>
+
+      <div class="p-6 border-t border-gray-200 dark:border-gray-600 relative z-10">
+        <h3 class="text-lg font-semibold text-gray-800 dark:text-gray-200 animate__animated animate__fadeIn">Контакты:</h3>
+        <div class="flex justify-center space-x-4 mt-2">
+          <a href="https://t.me/immoniks" class="text-gray-600 hover:text-purple-500 transition-colors duration-200 transform hover:scale-110 animate__animated animate__fadeIn animate__delay-4s">
+            <i class="fab fa-telegram fa-2x"></i>
+          </a>
+          <a href="mailto:budagova.monika5@yandex.ru" class="text-gray-600 hover:text-purple-500 transition-colors duration-200 transform hover:scale-110 animate__animated animate__fadeIn animate__delay-4s">
+            <i class="fas fa-envelope fa-2x"></i>
+          </a>
+          <a href="tel:+79804757075" class="text-gray-600 hover:text-purple-500 transition-colors duration-200 transform hover:scale-110 animate__animated animate__fadeIn animate__delay-4s">
+            <i class="fas fa-phone fa-2x"></i>
+          </a>
         </div>
-    </div>
-    <div class="back">
-      <div class="container-sm">
-        <figure class="logo-white"></figure>
-      </div>
-      <div class="container-lg">
-        <ul class="social fa-ul">
-        <li><i class="fa fa-li fa-envelope"></i><a href="mailto:budagova.monika5@yandex.ru">budagova.monika5@yandex.ru</a></li>
-        <li><i class="fa fa-li fa-phone"></i><a href="tel:+79804757075">+7 (980)-475-70 75</a></li>
-        <li><i class="fa fa-li fa-github"></i><a href="https://github.com/monikabudagova">GitHub</a></li>
-    </ul>
       </div>
     </div>
+
+    <!-- Эффект искр -->
+    <div class="absolute inset-0 pointer-events-none">
+      <div class="sparkle"></div>
+      <div class="sparkle"></div>
+      <div class="sparkle"></div>
+      <div class="sparkle"></div>
+      <div class="sparkle"></div>
+    </div>
   </div>
-</div>
-
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-
-
-<div class="bouncing-blobs-container">
-  <div class="bouncing-blobs-glass"></div>
-  <div class="bouncing-blobs">
-    <div class="bouncing-blob bouncing-blob--blue"></div>
-    <div class="bouncing-blob bouncing-blob--blue"></div>
-    <div class="bouncing-blob bouncing-blob--blue"></div>
-    <div class="bouncing-blob bouncing-blob--white"></div>
-    <div class="bouncing-blob bouncing-blob--purple"></div>
-    <div class="bouncing-blob bouncing-blob--purple"></div>
-    <div class="bouncing-blob bouncing-blob--pink"></div>
-  </div>
-</div>
-<div class="hero  text-black  dark:text-white">
-  <h2>КОНТАКТЫ</h2>
-
-</div>
-</main>
-
 </template>
+
 <script setup>
-
-
+// Здесь можно добавить логику, если необходимо
 </script>
 
 <style scoped>
-:root {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
-    color: black;
-    background-color: whitesmoke;
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
 
-body {
-    margin: 0;
-    display: flex;
-    place-items: center;
-    min-width: 320px;
-    min-height: 100vh;
-}
-
-.business-card {
-    height: 427px;
-    width: 320px;
-    margin-left: -160px; /* $width/-2 */
-    margin-top: -213.5px; /* $height/-2 */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    perspective: 1000;
-    word-wrap: break-word; /* Позволяет длинным словам переноситься на новую строку */
-    overflow-wrap: break-word; /* Совместимость с различными браузерами */
-}
-/* 
-.bouncing-blob--blue {
-  background: #4783c7;
-}
-
-.bouncing-blob--white {
-  background: #ffffff;
-  z-index: 2;
-  width: 15vw;
-}
-
-.bouncing-blob--purple {
-  background: #8c8ff1;
-}
-
-.bouncing-blob--pink {
-  background: #e289cd50;
-} */
-
-.bouncing-blobs-container {
-  position: fixed;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.bouncing-blobs-glass {
+.sparkle {
   position: absolute;
-  z-index: 2;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  backdrop-filter: blur(140px);
-  -webkit-backdrop-filter: blur(140px);
-  pointer-events: none;
+  width: 10px;
+  height: 10px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%);
+  animation: sparkle 1.5s infinite;
+  opacity: 0;
 }
 
-.bouncing-blobs {
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.sparkle:nth-child(1) {
+  top: 20%;
+  left: 10%;
+  animation-delay: 0s;
 }
 
-.hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+.sparkle:nth-child(2) {
+  top: 30%;
+  left: 80%;
+  animation-delay: 0.5s;
 }
 
-.hero h2 {
-  font-size: 70px;
-  max-width: 800px;
-  line-height: 1;
-  text-align: center;
-  font-weight: bold;
-  text-transform: capitalize;
-  margin-bottom: 20px;
-
+.sparkle:nth-child(3) {
+  top: 60%;
+  left: 30%;
+  animation-delay: 1s;
 }
 
-.hero p {
-  font-size: 24px;
-  max-width: 500px;
-  text-align: center;
-
+.sparkle:nth-child(4) {
+  top: 70%;
+  left: 70%;
+  animation-delay: 1.5s;
 }
 
-@media (max-width: 1200px) {
-  .bouncing-blobs-glass {
-    backdrop-filter: blur(120px);
-    -webkit-backdrop-filter: blur(120px);
-  }
-}
-
-@media (max-width: 500px) {
-  .bouncing-blob {
-    width: 60vw;
-  }
-  .bouncing-blob--white {
-    width: 30vw;
-  }
-  .bouncing-blobs-glass {
-    backdrop-filter: blur(90px);
-    -webkit-backdrop-filter: blur(90px);
-  }
-
-  .hero h2 {
-    font-size: 32px;
-  }
-
-  .hero p {
-    font-size: 16px;
-    padding: 0 20px;
-  }
-}
-
-.tutorial-link a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: black;
-  font-size: 20px;
-  text-decoration: none;
-  font-weight: 600;
-  gap: 0 5px;
-  border: 2px solid;
-  border-radius: 5px;
-  padding: 4px 10px;
-}
-
-.tutorial-link svg {
-  width: 30px;
-}
-
-@media(max-width: 500px) {
-  .tutorial-link a {
-    font-size: 14px;
-    padding: 2px 4px;
-  }
-  .tutorial-link svg {
-    width: 15px;
-  }
-}
-body {
-  background-image: url(https://subtlepatterns.com/patterns/gplaypattern.png);
-  background-position: center center;
-  font-family: 'Open Sans', sans-serif;
-}
-
-div.business-card {
-  height: 427px;
-  width: 320px;
-  margin-left: -160px; /* $width/-2 */
-  margin-top: -213.5px; /* $height/-2 */
-  
-  position: absolute;
-  top: 50%;
+.sparkle:nth-child(5) {
+  top: 40%;
   left: 50%;
-  
-  perspective: 1000;
+  animation-delay: 2s;
 }
 
-div.business-card:hover .flipper,
-div.business-card.hover .flipper {
-  transform: rotateY(180deg) rotateZ(90deg);
+@keyframes sparkle {
+  0% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
 }
-
-div.flipper {
-  transition: 0.6s;
-  transform-style: preserve-3d;
-
-  position: relative;
-  transform-origin: center 160px; /* $width/2 */
-}
-
-div.front,
-div.back {
-  backface-visibility: hidden;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 427px; /* $height */
-  width: 320px; /* $width */
- 
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.75);
-}
-
-div.front {
-  background-color: white;
-  z-index: 0;
-}
-
-div.front:before,
-div.front:after {
-  display: block;
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-width: 160px; /* $width/2 */
-  border-style: solid;
-  border-color: transparent;
-}
-
-div.front:before {
-  border-top-color: #5271FF; /* $light-blue */
-  border-left-color: #5271FF; /* $light-blue */
-  z-index: 2;
-}
-
-div.front:after {
-  border-top-color: #e978ff; /* $dark-blue */
-  border-right-color: #e978ff; /* $dark-blue */
-}
-
-div.front div.name {
-  position: absolute;
-  bottom: 43.5px; /* ($height - $width - 90)/2 */
-  left: 85px; /* ($width - 150px) / 2 */
-}
-
-div.front div.name span {
-  display: block;
-  font-size: 40px;
-  line-height: 45px;
-}
-
-div.front div.name span.first {
-  color: #5271FF; /* $dark-blue */
-}
-
-div.front div.name span.last {
-  color: #e978ff; /* $light-blue */
-}
-
-div.front div.name span.title {
-  font-size: 20px;
-  line-height: 20px;
-}
-
-div.back {
-  background-color: #d189f8; /* $dark-blue */
-  color: white;
-  width: 427px; /* $height */
-  height: 320px; /* $width */
-  box-sizing: border-box;
-  transform: rotateY(180deg) rotateZ(90deg);
-}
-
-div.back div.container-sm {
-  float: left;
-  width: 40%;
-  height: 100%;
-  position: relative;
-}
-
-div.back div.container-lg {
-  float: left;
-  width: 60%;
-  margin-top: 2rem;
-}
-
-div.back figure.logo-white {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 120px;
-  height: 120px;
-  display: block;
-  margin: -60px -60px;
-}
-
-div.back figure.logo-white:before,
-div.back figure.logo-white:after {
-  display: block;
-  content: '';
-  position: absolute;
-  border-style: solid;
-  border-color: transparent;
-}
-
-div.back figure.logo-white:before {
-  top: 0;
-  left: 0;
-  border-width: 60px;
-  border-top-color: white;
-  border-left-color: white;
-  z-index: 2;
-}
-
-div.back figure.logo-white:after {
-  bottom: 0;
-  right: 0;
-  border-width: 56px;
-  border-right-color: white;
-}
-
-div.back a {
-  color: white;
-  text-decoration: none;
-  display: block;
-}
-
-div.back a:hover {
-  text-decoration: underline;
-}
-
-div.back ul.social {
-  font-size: 1.25rem;
-}
-
-div.back ul.social li {
-  margin-top: 1rem;
-}
-
-div.back ul.social li:first-child {
-  margin-top: 2rem;
-}
-.gallery {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    gap: 20px;
-}
-
-.gallery img {
-    width: 150px;
-    height: 150px;
-    transition: transform 0.3s ease;
-    border-radius: 10px;
-}
-
-.gallery img:hover {
-    transform: scale(1.2) translateY(-10px);
-}
-
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-    margin: 0;
-}
-
-main{
-    color: #000000;
-
-}
-
-
-
 </style>
