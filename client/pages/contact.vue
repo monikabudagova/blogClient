@@ -13,23 +13,23 @@
 
         <h2 class="text-3xl font-semibold mb-4 text-black dark:text-white">Контактная информация</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-          <a href="https://t.me/immoniks" class="flex items-center justify-center bg-purple-600 text-white font-semibold py-3 rounded-lg shadow-md hover:bg-purple-700 transition duration-200 transform hover:scale-105">
-            <img src="https://img.icons8.com/ios-filled/24/ffffff/telegram-app.png" alt="Telegram" class="mr-2" />
-            <span class="text-black dark:text-white">Телеграм</span>
-          </a>
-          <a href="tel:+79804757075" class="flex items-center justify-center bg-purple-600 text-white font-semibold py-3 rounded-lg shadow-md hover:bg-purple-700 transition duration-200 transform hover:scale-105">
-            <img src="https://img.icons8.com/ios-filled/24/ffffff/phone.png" alt="Phone" class="mr-2" />
-            <span class="text-black dark:text-white">Номер</span>
-          </a>
-          <a href="mailto:budagova.monika5@yandex.ru" class="flex items-center justify-center bg-purple-600 text-white font-semibold py-3 rounded-lg shadow-md hover:bg-purple-700 transition duration-200 transform hover:scale-105">
-            <img src="https://img.icons8.com/ios-filled/24/ffffff/email.png" alt="Email" class="mr-2" />
-            <span class="text-black dark:text-white">Email</span>
-          </a>
-          <a href="https://github.com/your-github-username" class="flex items-center justify-center bg-purple-600 text-white font-semibold py-3 rounded-lg shadow-md hover:bg-purple-700 transition duration-200 transform hover:scale-105">
-            <img src="https://img.icons8.com/ios-filled/24/ffffff/github.png" alt="GitHub" class="mr-2" />
-            <span class="text-black dark:text-white">GitHub</span>
-          </a>
-        </div>
+  <a href="https://t.me/immoniks" class="flex items-center justify-center bg-purple-600 text-white font-semibold py-3 rounded-lg shadow-md hover:bg-purple-700 transition duration-200 transform hover:scale-105">
+    <img src="https://img.icons8.com/ios-filled/24/000000/telegram-app.png" alt="Telegram" class="mr-2 dark:opacity-100 opacity-100" />
+    <span class="text-black dark:text-white">Телеграм</span>
+  </a>
+  <a href="tel:+79804757075" class="flex items-center justify-center bg-purple-600 text-white font-semibold py-3 rounded-lg shadow-md hover:bg-purple-700 transition duration-200 transform hover:scale-105">
+    <img src="https://img.icons8.com/ios-filled/24/000000/phone.png" alt="Phone" class="mr-2 dark:opacity-100 opacity-100" />
+    <span class="text-black dark:text-white">Номер</span>
+  </a>
+  <a href="mailto:budagova.monika5@yandex.ru" class="flex items-center justify-center bg-purple-600 text-white font-semibold py-3 rounded-lg shadow-md hover:bg-purple-700 transition duration-200 transform hover:scale-105">
+    <img src="https://img.icons8.com/ios-filled/24/000000/email.png" alt="Email" class="mr-2 dark:opacity-100 opacity-100" />
+    <span class="text-black dark:text-white">Email</span>
+  </a>
+  <a href="https://github.com/monikabudagova" class="flex items-center justify-center bg-purple-600 text-white font-semibold py-3 rounded-lg shadow-md hover:bg-purple-700 transition duration-200 transform hover:scale-105">
+    <img src="https://img.icons8.com/ios-filled/24/000000/github.png" alt="GitHub" class="mr-2 dark:opacity-100 opacity-100" />
+    <span class="text-black dark:text-white">GitHub</span>
+  </a>
+</div>
 
         <h2 class="text-3xl font-semibold mb-4 text-black dark:text-white">Мои навыки</h2>
         <div class="grid grid-cols-2 gap-4">
@@ -86,6 +86,13 @@
 </script>
 
 <style scoped>
+.text-black {
+  filter: invert(0); /* Черный цвет для светлой темы */
+}
+
+.dark .text-white {
+  filter: invert(1); /* Белый цвет для темной темы */
+}
   /* Добавим немного стилей для улучшения дизайна */
   .container {
     max-width: 800px; /* Ограничим ширину контейнера */
